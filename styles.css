@@ -42,10 +42,14 @@ body {
   color: orangered;
   position: relative;
   font-weight: 400;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .line {
-  width: 15rem;
+  width: 80%;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.3);
   position: absolute;
@@ -85,7 +89,7 @@ body {
 .feature-item {
   list-style: none;
   color: white;
-  padding: 0.4rem 0rem;
+  padding: 0.4rem 1rem;
   position: relative;
 }
 
@@ -93,7 +97,7 @@ i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: -20%;
+  left: -10%;
 }
 
 .fa-check {
